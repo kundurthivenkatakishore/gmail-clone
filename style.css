@@ -1,0 +1,197 @@
+body {
+    background-color: white;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    color: #686d76;
+  }
+  
+  .main {
+    margin-top: 10%;
+    padding: 50px;
+    border: 0.5px solid #898b8a;
+    border-radius: 20px;
+  }
+  
+  .mails {
+    cursor: pointer;
+  }
+  
+  #search {
+    width: 100%;
+  }
+  
+  i {
+    color: #1a73e8;
+  }
+  
+  #search-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+  
+  .search-bar {
+    position: relative;
+  }
+  
+  h1 {
+    color: #222831;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .main p {
+    margin-top: 20px;
+    color: black;
+  }
+  
+  .google-img {
+    width: 200px;
+  }
+  
+  .form-control {
+    width: 60%;
+    margin-right: 50px;
+  }
+  
+  .inbox {
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 20px;
+  }
+  
+  .g-signin2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  nav i {
+    color: grey;
+    margin-right: 10px;
+  }
+  
+  p {
+    width: 100%;
+    margin: 0.5rem 0px;
+    padding: 0.5%;
+  }
+  
+  .btn {
+    border-radius: 0%;
+  }
+  
+  #night-mode {
+    cursor: pointer;
+  }
+  
+  #inbox p:hover {
+    border: 2px solid lightgray;
+  }
+  
+  #inbox p {
+    border-top: 0.5px solid #eeeeee;
+    border-bottom: 0.5px solid #eeeeee;
+  }
+  
+  img,
+  label {
+    display: block;
+  }
+  
+  #inbox {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 600px;
+  }
+  
+  #labels {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 400px;
+  }
+  
+  #labels p {
+    border: 0.2px solid lightgray;
+  }
+  
+  #labels .btn {
+    width: 100%;
+  }
+  
+  .Labels {
+    cursor: pointer;
+  }
+  
+  .Labels:hover {
+    border: 2px solid lightgray;
+  }
+  
+  .compose-icon {
+    color: white;
+  }
+  
+  .nav-buttons li {
+    width: 100%;
+  }
+  
+  #profile {
+    width: 40px;
+    border-radius: 50px;
+  }
+  
+  .bg-light {
+    background-color: none;
+  }
+  
+  .logo {
+    display: inline;
+    width: 100px;
+  }
+  
+  .compose {
+    width: 80%;
+    box-shadow: 2px;
+    border-radius: 20px;
+    padding: 8px;
+  }
+  .right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 900px) {
+    #search {
+      margin-bottom: 20px;
+    }
+  
+    .user-img {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .g-signin2 {
+      margin-top: 30px;
+    }
+  
+    .main {
+      margin-top: 40%;
+      padding: 50px;
+      border: 0.5px solid grey;
+      border-radius: 20px;
+    }
+  
+    #labels {
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 120px;
+    }
+  
+    .top-icon {
+      display: hidden;
+    }
+  }
